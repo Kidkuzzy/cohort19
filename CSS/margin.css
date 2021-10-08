@@ -1,0 +1,73 @@
+.box{
+	border: solid 20px black;
+	border-radius:50%;
+	width: 300px;
+	height: 300px;
+}
+	
+.red{
+	background-color:red;
+}
+.yellow{
+	background-color:yellow;
+}
+.green{
+	background-color:green;
+}
+	
+.box2{
+	border-style: solid;
+	border-width: 20px;
+	border-color: black;
+	border-radius:50%;
+	width: 300px;
+	height: 300px;
+	background-color: yellow;}
+	
+.box3{
+	border-style: solid;
+	border-width: 20px;
+	border-color: black;
+	border-radius:50%;
+	width: 300px;
+	height: 300px;
+	background-color: green;}
+	
+.intro{
+	border: solid black 2px;
+	min-height: 80px;
+	margin-top:40px;
+	margin-right:20px;
+	margin-bottom:10px;
+	margin-left:30px;
+}
+.mytext{
+	border: dashed black 10px;
+	margin:20px 50px 100px;
+	min-width:100px;
+	min-height:100px
+}
+.mytext2{
+	border: 2px solid #123fff;
+	display:inline;
+}
+.welcome{
+	border:2px solid;
+	display:inline-block;
+	width: 150px;
+	height: 50px;
+}
+#banner {
+	background-image: url('../images/medic2.jpg');
+	height:500px;
+	background-position:bottom left;
+	background-repeat: no-repeat;
+	background-size:cover;
+	/*you can also use "contain"*/
+	background-attachment: fixed;
+}
+#caption{
+	background: brown url('../images/queen.jpg') no-repeat fixed center;
+	height: 200px;
+	background-size: cover
+}

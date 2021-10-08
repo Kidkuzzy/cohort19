@@ -1,0 +1,94 @@
+body{
+	color: white;
+}
+div, section{
+	/*height: 100px;*/
+	border: 1px black;
+}
+.logo{
+	float: left;
+	width: 39%;
+	text-align:center;
+	padding-top: 20px;
+}
+.nav{
+	float: right;
+	width: 59%;
+}
+li a{
+	text-decoration:none;
+	color: inherit;
+}
+.matrimonial{
+	float:left;
+	width: 60%;
+	box-sizing: border-box;
+}
+.register{
+	float:right;
+	width: 40%;
+	box-sizing: border-box;
+}
+.nav, li{
+	display:inline-block;
+	padding: 5px;
+
+}
+#wrapper{
+	background: url('../images/banner.jpg') linear-gradient(rgba(0,0,0,0.5)),(rgba(0,0,0,0.5));
+	background-position: center;
+	background-size: cover;
+	
+}
+section{
+	margin-top: 
+}
+.imglogo{
+	width: 12px;
+	height: 12px;
+}
+input{
+	margin: 8px;
+	padding: 5px;
+	width: 230px;
+}
+select{
+	margin: 8px;
+	padding: 5px;
+	width: 240px;
+}
+section{
+	margin: auto;
+	margin-top:120px;
+	width: 65%;
+	margin-bottom: 120px;
+}
+.formcontainer{
+	background-color: #fff;
+	color: #000;
+	width: 75%;
+	padding: 10px;
+}
+#getstarted{
+	background-color: red;
+	color: #fff;
+	width: 250px;
+	padding:10px;
+	
+}
+small{
+	font-size: 11px
+}
+.readmore{
+	background-color:transparent; 
+	color:white; 
+	padding:10px;
+	border: 1px solid white;
+}
+.mtext{
+	padding:40px;
+	border:2px  green;
+	width: 60%;
+	margin:auto;
+	
+}

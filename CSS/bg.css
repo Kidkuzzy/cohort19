@@ -1,0 +1,14 @@
+body{
+	
+}
+h1{
+	background-color: tomato;
+}
+p{
+	background-color: violet;
+}
+div{background: linear-gradient(to top, blue, white);
+	height:500px;}
+header, footer{
+	border:4px solid #000
+}

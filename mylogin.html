@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>	Login Form using Table</title>
+	</head>
+	<body>
+		<h1>Registration Form</h1>
+		<form action="" method="post">
+		<fieldset>
+			<legend>Register</legend>
+			<p>
+				<label for="firstname">Firstname</label>:<br>
+				<input type="text" name="firstname" id="firstname" autocomplete="off" size="20"maxlength="10"><br>
+			</p>
+			<p>
+				<label for="lastname">Lastname</label>:<br>
+				<input type="text" name="lastname" id="lastname" autocomplete="off" size="20"maxlength="10"><br>
+			</p>
+			<p>
+				<label for="email">Email Address</label>:<br>
+				<input type="text" name="emailaddress" id="emailaddress" autocomplete="off" size="20"><br>
+			</p>
+			<p>
+				<label for="password">Password</label>:<br>
+				<input type="password" name="password" id="password" autocomplete="off" size="20"><br>
+			</p>
+			<p>
+				<label>Gender</label>
+				<input type="radio" name="gender" id="gender1" value="Male" checked>
+				<label for="gender1">Male</label>
+			
+				<input type="radio" name="gender" id="gender2" value="Female">
+				<label for="gender2">Female</label>
+				
+				<input type="radio" name="gender" id="gender3" value="Other">
+				<label for="gender3">Other</label>
+			</p>
+			<p>
+				<label>Upload Resume</label>
+				<input type="file" name="resume" id="resume" multiple>
+			
+			</p>
+			<p>
+				<label>Cities Visited</label>
+				<input type="checkbox" name="city1" id="city1" value="kano">
+				<label for="city1">Kano</label>
+				
+				<input type="checkbox" name="city2" id="city2" value="jos">
+				<label for="city2">Jos</label>
+				
+				<input type="checkbox" name="city3" id="city3" value="kaduna">
+				<label for="city3">Kaduna</label>
+				
+				<input type="checkbox" name="city4" id="city4" value="benin">
+				<label for="city4">Benin City</label>
+				
+			</p>
+			<p>
+				<label>State</label>
+				<select name="state" id="state">
+					<option value="">Choose State</option>
+					<option value="1">Abia</option>
+					<option value="2">Anambra</option>
+					<option value="3">Cross River</option>
+					<option value="4">Delta</option>
+					<option value="5">Edo</option>
+					<option value="6">Enugu</option>
+					<option value="7">Imo</option> <br>
+				</select>
+			</p>
+			<p>
+				<label>Cap Color</label>
+				<input type="color" name="capcolor" ><br>
+				
+				<label>Expected Delivery Date</label>
+				<input type="date" name="delivery" ><br>
+			</p>
+			<p>
+				<input type="reset" name="reset" value="Clear">
+				<input type="submit" name="submit" value="Register">
+				<input type="button" name="btnage" value="Get Age">
+			</p>
+			<p>
+				<label for="comment">Comments</label>
+				<textarea name="comment" id="comment" rows="15" cols="55"></textarea>
+			</p>
+			</fieldset>
+		
+		</form>
+	</body>
+</html>

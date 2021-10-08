@@ -1,0 +1,49 @@
+.banner{
+	background-image: url('../images/banner.jpg');
+	height: 600px;
+	background-position: center;
+	background-repeat: no-repeat 
+}
+#heading1{
+	position: relative;
+	top: -120px;
+	color: #fff;
+	text-align: center;
+}
+#para1{
+	position: relative;
+	bottom: -220px;
+	color: #fff;
+	text-align: center;
+}
+#welcome{
+	position: relative;
+	top: -100px;
+	color: #fff;
+	text-align:right;
+}
+.mybox{
+	width: 200px;
+	height: 200px;
+	border: 1px solid grey;
+}
+.blackbox{
+	background-color: #000;
+	position: relative;
+	left: 500px;
+	z-index:1
+}
+.greenbox{
+	background-color: rgba(0,255,0,0.9);
+	position: relative;
+	left: 550px;
+	top: -70px;
+	z-index:3
+}
+.yellowbox{
+	background-color: rgba(255,247,0,0.8);
+	position: relative;
+	left: 650px;
+	top: -350px;
+	z-index:2
+}

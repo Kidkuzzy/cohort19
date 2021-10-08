@@ -1,0 +1,53 @@
+body{
+	background: white url('../images/banner.jpg') no-repeat fixed center ;
+	background-size: cover;
+	font-family: Oxygen, sans-serif;
+
+}
+div{
+	color: white
+}
+#logoname{
+	border:white 2px ; 
+	height:90px;
+	float:left; 
+	width:20%;
+}
+ul li{
+	border:1px white;
+	padding:10px; 
+	border-width: 90px;
+	display:inline;
+}
+li a{ 
+	text-decoration: none;
+	color: white;
+	font-family: 'Oxygen', sans-serif;
+	
+}
+h2{
+	text-align: center;
+	padding-top:100px
+}
+p{
+	padding: 70px 50px 100px
+}
+fieldset{
+	background-color: rgb (201, 173, 161);
+	text-align: center;
+	font-family: calibri, sans-serif;
+	border: none;
+	padding-top: 50px;
+}
+input{
+	border: none;
+	color: black;
+}
+#regtable{
+	background-color:pink;
+	background-size: 50%;
+}
+div{}
+{
+	border:4px solid #000
+}

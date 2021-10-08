@@ -1,0 +1,17 @@
+#heading1{
+	text-shadow: 2px 3px 6px red, 5px 6px 7px blue;
+}
+#para1{
+	width:200px;
+	height:250px;
+	border: 1px solid black;
+	box-shadow: 2px 3px 6px red, 5px 6px 7px blue;
+	padding: 15px;
+}
+#welcome::first-letter{
+	font-size:48px;
+	font-weight:bold;
+}
+#academy::first-line{
+	color:green
+}
